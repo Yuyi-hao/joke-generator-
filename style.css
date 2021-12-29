@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4D4279;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container{
+    position:relative; 
+    width: 50%;
+    height: 30%;
+    padding: 10%;
+
+    background: #FEE7E7;
+    box-shadow: 4px 4px 28px 23px rgba(72, 38, 38, 0.25);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.container.card #heading h1{
+    font-family: Pompiere;
+font-style: normal;
+font-weight: normal;
+font-size: 37px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+
+}
+
+#btn{
+    padding: 5px 15px;
+    background-color:  rgba(255, 238, 80, 1);
+    box-shadow: 0px 0px 7px 2px rgba(97, 95, 9, 0.25);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-family: 'Licorice', cursive;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+#btn:hover{
+    /* border: 2px solid black; */
+    background-color:  rgba(212, 160, 241, 0.726);
+}
+
+#btn:active{
+    background-color:  rgba(183, 77, 240, 0.726);
+}
+
+.container .card .writer {
+    /* border: 2px solid black; */
+    text-align: end;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Licorice', cursive;
+    font-size: 1.2rem;
+}
+.container .card .joke{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Redressed', cursive;
+    font-size: 1.3rem;
+    word-wrap: normal;
+}
+
+.container .card .heading {
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Pompiere', cursive;
+    font-size: 2.5rem;
+}
+
+
+
+
+
